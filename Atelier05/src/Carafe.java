@@ -18,7 +18,7 @@ public class Carafe  {
 			c2.contenu=c1.contenu+c2.contenu;
 		}else {
 			c2.contenu=c2.contenu+(c2.capacite-c2.contenu);
-			c1.contenu=(c2.capacite-c1.contenu);
+			c1.contenu=c1.contenu-(c2.capacite-c2.contenu);
 		}
 	}
 	public int Contenu() {
