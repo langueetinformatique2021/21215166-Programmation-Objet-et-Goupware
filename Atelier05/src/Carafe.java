@@ -16,6 +16,7 @@ public class Carafe  {
 	public void Transvaser(Carafe c1, Carafe c2) {
 		if ((c1.contenu+c2.contenu)<=c2.capacite) {
 			c2.contenu=c1.contenu+c2.contenu;
+			c1.contenu=0;
 		}else {
 			c2.contenu=c2.contenu+(c2.capacite-c2.contenu);
 			c1.contenu=c1.contenu-(c2.capacite-c2.contenu);
