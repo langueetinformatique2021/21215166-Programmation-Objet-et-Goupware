@@ -1,5 +1,11 @@
 
+/**
+ * @author Sarah
+ *
+ */
 public class Carafe  {
+	
+	
 	private int contenu, capacite;
 	
 	public Carafe(int contenu, int capacite) {
