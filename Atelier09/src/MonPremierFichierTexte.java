@@ -10,6 +10,8 @@ public class MonPremierFichierTexte {
 		try {
 			BufferedReader Lect = new BufferedReader(
 					new FileReader(new File("Nom.txt")));
+			
+			
 			if (Lect.readLine().equals("21215166") == false)
 				return false;
 			if (Lect.readLine().equals("21223344") == false)
